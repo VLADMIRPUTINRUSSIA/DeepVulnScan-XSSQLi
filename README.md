@@ -34,7 +34,7 @@ It includes a full set of modern payloads, logging, Discord webhook alerting, an
 ## Installation
 
 ```bash
-git clone [https://github.com/VLADMIRPUTINRUSSIA/DeepVulnScan-XSSQLi.git]
+git clone https://github.com/VLADMIRPUTINRUSSIA/DeepVulnScan-XSSQLi.git
 cd deepvulnscan-xssqli
 pip3 install -r requirements.txt
 chmod +x xss_sqli_scanner.py
