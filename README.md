@@ -6,6 +6,9 @@ It includes a full set of modern payloads, logging, Discord webhook alerting, an
 ---
 
 ## Project Metadata
+- This tool is for educational and authorized testing only.
+- Do not use without full legal permission from the target owner.
+
 - Author: VLADMIRPUTINRUSSIA
 - Name: DeepVulnScan-XSSQLi
 - Version: 1.0.0
