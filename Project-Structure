@@ -1,0 +1,31 @@
+# Disclaimer
+This tool is designed for educational and authorized penetration testing only.
+Do not use it against systems without explicit permission.
+You are responsible for your own actions.
+This project is licensed under the MIT License.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the “Software”), to deal
+in the Software without restriction...
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND...
+
+
+DeepVulnScan-XSSQLi/
+├── LICENSE                         # MIT License
+├── README.md                       # Full documentation with setup, usage, legal info
+├── requirements.txt                # Python dependencies
+├── xss_sqli_scanner.py             # Main scanner script
+├── config/
+│   └── webhook.py                  # Discord webhook configuration
+├── payloads/
+│   ├── xss_payloads.txt            # Real-world XSS vectors
+│   └── sqli_payloads.txt           # Real-world SQLi vectors
+├── logs/
+│   └── results.csv                 # Timestamped logs (CSV)
+├── utils/
+│   └── scanner_engine.py           # Payload delivery, response parsing, vuln logic
+│   └── logger.py                   # Handles ISO 8601 timestamping, writing logs
+│   └── alert.py                    # Sends alerts to Discord
+└── data/
+    └── targets.txt                 # List of URLs to scan (optional batch mode)
+
